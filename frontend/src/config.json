@@ -1,0 +1,4 @@
+{
+    "restServerSocket" : "http://localhost:8080",
+    "staticServerSocket" : "http://localhost:8080"
+}

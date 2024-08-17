@@ -1,0 +1,25 @@
+// if (this.rows < oldRows) {
+        //     this.board.splice(this.rows);
+        // } else if (this.rows > oldRows) {
+        //     for (let i = oldRows; i < this.rows; i++) {
+        //         this.board.push(new Array());
+        //         for (let j = 0; j < this.cols; j++) {
+        //             this.board[i].push(new Point());
+        //         }
+        //     }
+        // }
+        // if (this.cols < oldCols) {
+        //     for (let i = 0; i < this.rows; i++) {
+        //         this.board[i].splice(this.cols);
+        //     }
+        // } else if (this.cols > oldCols) {
+        //     for (let i = 0; i < this.rows; i++) {
+        //         let length = this.board[i].length;
+        //         if (length == this.cols.length) {
+        //             continue;
+        //         }
+        //         for (let j = length; j < this.cols; j++) {
+        //             this.board[i].push(new Point());
+        //         }
+        //     }
+        // }

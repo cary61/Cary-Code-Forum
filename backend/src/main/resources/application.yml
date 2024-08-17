@@ -1,0 +1,49 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cary_code
+    username: user
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  web:
+    resources:
+      chain:
+        cache: false
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    date-format: yyyy-MM-dd hh:mm:ss
+  devtools:
+    livereload:
+      enabled: true
+
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+jwt:
+  private-key: cary61
+
+authority:
+  root:
+    name: root
+    password: Cary61!
+
+user:
+  default-avatar: /public/default_avatar.jpg
+  default-signature: 这个人很懒，还没有设置签名╮(╯▽╰)╭
+
+web-config:
+  file-data-path: C:/my/code/idea_project/cary_code/src/main/resources/static/
+  file-path-prefix: public/
+  article-page-size: 15
+  comment-page-size: 30
+
+online-judge:
+  host: 127.0.0.1
+  port: 7000
+  default-process-amount: 1
+  lowest-process-amount: 1
+  highest-process-amount: 64
